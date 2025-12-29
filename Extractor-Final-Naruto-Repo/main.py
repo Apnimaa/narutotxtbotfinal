@@ -1,4 +1,4 @@
-from config import Config
+from config.py import Config.py
 from database.naruto import *
 from pyrogram import Client, idle
 import asyncio, logging
