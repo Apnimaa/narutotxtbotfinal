@@ -17,7 +17,7 @@ if __name__ == "__main__":
         plugins=plugins,
         workers=10000,
     )
-    async def main():
+async def main():
         await bot.start()
         bot_info = await bot.get_me()
         LOGGER.info(f"<--- @{bot_info.username} Started --->")
